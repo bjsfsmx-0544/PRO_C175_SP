@@ -21,7 +21,7 @@ AFRAME.registerComponent("markerhandler", {
         modelList.splice(index, 1);
       }
 
-      // NOTE: Remove all the childs from base model
+      // Nota: remover todos los nodos hijos del modelo base
     });
   },
   getDistance: function(elA, elB) {
@@ -85,11 +85,11 @@ AFRAME.registerComponent("markerhandler", {
 
       distance = this.getDistance(marker1, marker2);
       if (distance < 1.25) {
-        // Changing Model Visibility
+        // Cambiando la visibilidad del modelo
         var modelEl = document.querySelector(`#${modelName}`);
         modelEl.setAttribute("visible", false);
 
-        // Checking Model placed or not in scene
+        // Verificando si el modelo es colocado o no en la escena
         var isModelPlaced = document.querySelector(`#model-${modelName}`);
         if (isModelPlaced === null) {
           var el = document.createElement("a-entity");
