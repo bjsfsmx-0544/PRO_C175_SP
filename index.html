@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>AR Scenery</title>
+    <title>Escenario AR</title>
     <meta
       name="viewport"
       content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
@@ -13,7 +13,7 @@
     <script src="./js/markerHandler.js"></script>
   </head>
   <body style="margin : 0px; overflow: hidden;">
-    <!-- Add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
+    <!-- Añadir detectionMode y matrixCodeType para indicar a AR.js que reconozca los marcadores de código de barras -->
     <a-scene
       id="main-scene"
       vr-mode-ui="enabled: false"
@@ -31,7 +31,7 @@
         visible="false"
       >
         <a-entity
-          text="font:monoid;value:Base Model is required to create Scene;align:center;width:8.8;color:#c2185b;"
+          text="font:monoid;value:Se requiere del modelo base para crear la escena;align:center;width:8.8;color:#c2185b;"
         ></a-entity>
       </a-plane>
       <a-entity id="camera" camera position="1 0 35"></a-entity>
