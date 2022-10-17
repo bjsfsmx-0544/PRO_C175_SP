@@ -1,2 +1,2 @@
-# PRO-C175-AR
-After class project for PRO-C175
+# PRO_C175_SP
+Proyecto posterior a la clase PRO_C175
